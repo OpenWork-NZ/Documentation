@@ -1,0 +1,10 @@
+---
+layout: page
+title: Notes
+---
+<h1>OpenWork Ltd notes</h1>
+<p>At OpenWork Ltd we use a range of different software. We provide documentation on these software components here in case they prove useful to you.</p>
+
+<ul>{% for guide in site.guides %}
+  <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+{% endfor %}</ul>
