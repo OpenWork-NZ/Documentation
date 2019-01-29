@@ -1,1 +1,11 @@
-theme: jekyll-theme-architect
+baseurl: "/Documentation"
+
+title: OWL Notes
+description: > # this means to ignore newlines until exclude:
+  Documentation for projects of interest to OpenWork Ltd.
+  
+exclude: [README.md]
+
+collections:
+    guides:
+        output: true
